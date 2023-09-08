@@ -43,26 +43,27 @@
       
      <!-- main ends-->
     </div>
-    <?php
-$col=mysqli_connect('localhost','root','','ovs');
-?>
-    <?php
-$surname=$_POST['surname'];
-$middle_name=$_POST['middle_name'];
-$roll_no=$_POST['roll_no'];
-$enrollment=$_POST['enrollment'];
-$compare="select * from verify where surname='$surname' and middle_name='$middle_name' and roll_no='$roll_no' and enrollment='$enrollment'";
-$result=mysqli_query($col,$compare);
-if($result)
-{
-	echo"<script>alert('you are elegible to vote')</script>";
-	header('location:.php');
-}
-else
-{
-	echo"<script>alert('you are not elegible to vote')</script>";
-	echo"";
-}
-?>
+   
 </body>
 </html>
+
+<?php
+$col = mysqli_connect('localhost', 'root', '', 'ovs');
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $surname = $_POST['surName'];
+    $middle_name = $_POST['midName'];
+    $roll_no = $_POST['rNo'];
+    $enrollment = $_POST['eNo'];
+    
+    $compare = "SELECT * FROM verify WHERE surname='$surname' AND middle_name='$middle_name' AND roll_no='$roll_no' AND enrollment='$enrollment'";
+    $result = mysqli_query($col, $compare);
+    
+    if ($result) {
+        echo "<script>alert('You are eligible to vote')</script>";
+        header('location:login.php');
+    } else {
+        echo "<script>alert('You are not eligible to vote')</script>";
+    }
+}
+?>
