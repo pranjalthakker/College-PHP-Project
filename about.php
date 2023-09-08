@@ -92,7 +92,7 @@
 <body>
     <header>
        <div class="tabs">
-            <h2 style="margin-top: 0; margin-bottom: 0;" id="links"><a href="home.php">Home</a></h2>
+            <h2 style="margin-top: 0; margin-bottom: 0;" id="links"><a href="dashboard.php">Home</a></h2>
             <h2 style="margin-top: 0; margin-bottom: 0;" id="links"><a href="vote.php">Vote</a></h2>
             <h2 style="margin-top: 0; margin-bottom: 0;" id="links"><a href="about.php">About</a></h2>
        </div>
@@ -109,7 +109,7 @@
             </div>
         </div>
         <div class="person">
-            <img src="assets/imgs/b.jpeg" alt="bhavik">
+            <img src="assets/imgs/bhavik.jpg" alt="bhavik">
             <h2 style="width: 270px; margin-bottom: 0; padding-right: 0;">Bhavik Siddhpura</h2>
             <p style="font-weight: bold; color: gray;">Developer.</p>
             <div class="contact">

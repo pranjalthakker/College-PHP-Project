@@ -15,7 +15,7 @@
 
     <main>
         <h1>Vote for Your Favorite Candidate</h1>
-        <form action="process_vote.php" method="post">
+        <form action="process_vote.php" method="post" style="height: 300px; width: 600px;">
             <label for="candidate">Select a Candidate:</label>
             <select id="candidate" name="candidate">
                 <option value="Pranjal">Pranjal</option>

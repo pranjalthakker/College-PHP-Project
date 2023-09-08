@@ -43,5 +43,26 @@
       
      <!-- main ends-->
     </div>
+    <?php
+$col=mysqli_connect('localhost','root','','ovs');
+?>
+    <?php
+$surname=$_POST['surname'];
+$middle_name=$_POST['middle_name'];
+$roll_no=$_POST['roll_no'];
+$enrollment=$_POST['enrollment'];
+$compare="select * from verify where surname='$surname' and middle_name='$middle_name' and roll_no='$roll_no' and enrollment='$enrollment'";
+$result=mysqli_query($col,$compare);
+if($result)
+{
+	echo"<script>alert('you are elegible to vote')</script>";
+	header('location:.php');
+}
+else
+{
+	echo"<script>alert('you are not elegible to vote')</script>";
+	echo"";
+}
+?>
 </body>
 </html>

@@ -41,7 +41,7 @@
         }
 
         .container {
-            height: 158vh;
+            height: 120vh;
             width: 60vw;
             margin: 20px auto;
             padding: 20px;
@@ -96,26 +96,26 @@
     <div class="container">
         <div class="person">
             <img src="assets/imgs/Pranjal1.jpg" alt="pranjal">
-            <h2 style="width: 180px; margin-bottom: 0;">Pranjal Thakkar</h2>
+            <h2 style="margin-bottom: 0;">Pranjal Thakkar</h2>  
             <p style="font-weight: bold; color: gray; margin-bottom: 0px;">Developer.</p>
             <div class="contact">
-                <p id="desc"> - Name : I am Pranjal Thakkar <br> - Roll No : 60 <br> - Built Front-End of this Project <br> and tried to become it user-friendly and a bit attractive. </p>
+                <p id="desc"> - Roll No : 60 <br> - Built Front-End of this Project </p>
             </div>
         </div>
         <div class="person">
-            <img src="assets/imgs/b.jpeg" alt="bhavik">
-            <h2 style="width: 210px; margin-bottom: 0; padding-right: 0;">Bhavik Siddhpura</h2>
+            <img src="assets/imgs/bhavik.jpg" alt="bhavik">
+            <h2 style="margin-bottom: 0; padding-right: 0;">Bhavik Siddhpura</h2>
             <p style="font-weight: bold; color: gray; margin-bottom: 0px;">Developer.</p>
             <div class="contact">
-                <p id="desc"> - Name : Bhavik Siddhpura <br> - Handled Back-end of this Project <br> - Roll No : 56 <br> </p>
+                <p id="desc"> - Roll No : 56 <br> - Handled Back-end of this Project</p>
             </div>
         </div>
         <div class="person">
             <img src="assets/imgs/J1.jpeg" alt="jeet">
-            <h2 style="width: 270px; margin-bottom: 0;">Gajjar Jeet</h2>
+            <h2 style=" margin-bottom: 0;">Gajjar Jeet</h2>
             <p style="font-weight: bold; color: gray; margin-bottom: 0px;">Developer.</p>
             <div class="contact">
-                <p id="desc"> Name : Gajjar Jeet <br> dashboard and voting page of this Project <br> and tried to become it user-friendly and a bit attractive. <br> </p>
+                <p id="desc"> - Roll No : 13 <br> - Created About Page and other miscellaneous work <br> </p>
             </div>
         </div>
     </div>
