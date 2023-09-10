@@ -36,7 +36,7 @@ body
     padding: 14px 36px;
     border-radius: 13px;
     font-size: 22px;
-    margin-left: 240px;
+    margin-left: 315px;
 }
 
 #logo
@@ -96,28 +96,12 @@ body
     font-size: 20px;
     border: 1px solid lightgray;
     border-radius: 12px;
-    width: 400px;
     padding: 14px;
     margin-left: 10px;
     margin-bottom: 10px; 
     width: 450px;
 }
 
-#surName
-{
-    padding-right: 50px;
-}
-
-
-#rNo
-{
-    padding-right: 68px;
-}
-
-#eNo
-{
-    padding-right: 8px;
-}
 label {
     font-size: 20px;
     margin-bottom: 5px;
