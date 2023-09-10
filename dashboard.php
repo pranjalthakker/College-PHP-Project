@@ -42,10 +42,11 @@
         }
 
         .container {
-            height: 120vh;
+            height: 117.5vh;
             width: 60vw;
             margin: 20px auto;
             padding: 20px;
+            padding-top: 0;
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -96,27 +97,27 @@
     </header>
     <div class="container">
         <div class="person">
-            <img src="assets/imgs/Pranjal1.jpg" alt="pranjal">
-            <h2 style="margin-bottom: 0;">Pranjal Thakkar</h2>  
+            <img src="assets/imgs/Harsh.jpg" alt="Harsh">
+            <h2 style="margin-bottom: 0;">Harsh Vaghela</h2>  
             <p style="font-weight: bold; color: gray; margin-bottom: 0px;">Developer.</p>
             <div class="contact">
-                <p id="desc"> - Roll No : 60 <br> - Built Front-End of this Project </p>
+                <h3 id="desc"> - Roll No : 62</h3>
             </div>
         </div>
         <div class="person">
-            <img src="assets/imgs/bhavik.jpg" alt="bhavik">
-            <h2 style="margin-bottom: 0; padding-right: 0;">Bhavik Siddhpura</h2>
+            <img src="assets/imgs/Jigar.jpeg" alt="Jigar">
+            <h2 style="margin-bottom: 0; padding-right: 0;">Jigar Prajapati</h2>
             <p style="font-weight: bold; color: gray; margin-bottom: 0px;">Developer.</p>
             <div class="contact">
-                <p id="desc"> - Roll No : 56 <br> - Handled Back-end of this Project</p>
+                <h3 id="desc"> - Roll No : 37 </h3>
             </div>
         </div>
         <div class="person">
-            <img src="assets/imgs/J1.jpeg" alt="jeet">
-            <h2 style=" margin-bottom: 0;">Gajjar Jeet</h2>
+            <img src="assets/imgs/Dishant.jpg" alt="Dishant">
+            <h2 style=" margin-bottom: 0;">Dishant Masani</h2>
             <p style="font-weight: bold; color: gray; margin-bottom: 0px;">Developer.</p>
             <div class="contact">
-                <p id="desc"> - Roll No : 13 <br> - Created About Page and other miscellaneous work <br> </p>
+                <h3 id="desc"> - Roll No : 30 </h3>
             </div>
         </div>
     </div>

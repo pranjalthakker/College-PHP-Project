@@ -28,14 +28,14 @@
                 <div class="input-fields">
                     <form action="others/login.php" method="POST"> 
                     <label for="surName">Surname :</label> 
-                        <input type="text" name="surName" id="surName" class="fields"><br> <br>
+                        <input type="text" name="surName" class="fields" style="padding-left: 14px; margin-left: 55px;"><br> <br>
                      <label for="midName">Middle Name :</label>
-                        <input type="text" name="midName" id="midName" class="fields" required><br> <br>
+                        <input type="text" name="midName" id="midname" class="fields" style="margin-left: 20px" required><br> <br>
                     <label for="rNo">Roll No :</label> 
-                        <input type="number" name="rNo" id="rNo" class="fields" max="2" required><br> <br>
+                        <input type="number" name="rNo" id="rno" class="fields" min="2" style="margin-left: 72px" required><br> <br>
                     <label for="eNo">Enrollment No :</label>
-                        <input type="number" name="eNo" id="eNo" class="fields" max="12" required><br> <br>
-                            <input type="submit" id="submit" name="submit"/><br>  
+                        <input type="number" name="eNo" id="eno" class="fields" min="5"  required><br> <br>
+                            <input type="submit" id="submit" name="submit" style="margin-left: 300px;"/><br>  
                     </form>
                 </div>
             </div>

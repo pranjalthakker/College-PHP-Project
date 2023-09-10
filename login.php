@@ -63,11 +63,6 @@ if($num==1)
 {
 
     header('location:dashboard.php');
-    
-    /*echo"<script>
-    alert('LOGIN SUCCESSFULL...!!!');
-    header('location:dashboard.php');
-    </script>";*/
 }
 else
 {
